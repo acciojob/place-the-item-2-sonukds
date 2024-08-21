@@ -1,31 +1,15 @@
-/* Your CSS Code here. */
-.holder{
-	display: flex;
-	/* justify-content: space-around; */
+.holder {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-.item1{
-	height: 100px;
-	width: 100px;
-	background-color: green;
-	/* border: 2px solid black; */
-	text-align: center;	
-}
-.item2{
-	height: 100px;
-	width: 100px;
-	background-color: red;
-	/* border: 2px solid black; */
-	text-align: center;	
-}
-.item3{
-	height: 100px;
-	width: 100px;
-	background-color: blue;
-	/* border: 2px solid black; */
-	text-align: center;	
-}
-.items{
-	height: 100px;
-	width: 100px
-	background-color: blue;
+
+.item1, .item2, .item3 {
+    /* Optional styling for items */
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: green;
+    text-align: center;
+    line-height: 100px;
 }
